@@ -3,21 +3,6 @@
 
 // В HTML есть разметка формы, в поля которой пользователь будет вводить первую задержку в миллисекундах, шаг увеличения задержки для каждого промиса после первого и количество промисов которое необходимо создать.
 
-// <form class="form">
-//   <label>
-//     First delay (ms)
-//     <input type="number" name="delay" required />
-//   </label>
-//   <label>
-//     Delay step (ms)
-//     <input type="number" name="step" required />
-//   </label>
-//   <label>
-//     Amount
-//     <input type="number" name="amount" required />
-//   </label>
-//   <button type="submit">Create promises</button>
-// </form>
 // Напиши скрипт, который при сабмите формы вызывает функцию createPromise(position, delay) столько раз, сколько ввели в поле amount. При каждом вызове передай ей номер создаваемого промиса (position) и задержку учитывая введенную пользователем первую задержку (delay) и шаг (step).
 
 // function createPromise(position, delay) {
