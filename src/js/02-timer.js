@@ -165,7 +165,7 @@ class Timer {
       const deltaTime = selectedTime - currentTime;
       const componentsTimer = convertMs(deltaTime);
       this.updateComponentsTimer(componentsTimer);
-      if (deltaTime <= 0) {
+      if (deltaTime <= 0 || deltaTime <= 1000) {
         this.stopTimer();
       }
     }, 1000);
